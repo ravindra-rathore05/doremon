@@ -1,0 +1,300 @@
+
+*{
+    padding: 0;
+    margin: 0;
+
+
+}
+body{
+    height: 100VH;
+    /* background-color: aqua; */
+
+}
+.main{
+    width:400px;
+    height: 500px;
+    border: 1px solid red;
+    margin: auto;
+}
+.header{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    position: relative;
+    background-color: aqua;
+    left: 75px;
+    border: 1px solid black;
+    
+}
+.header_inner{
+    width: 184px;
+    height: 184px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: absolute;
+    left: 28px;
+    top: 55px;
+    background-color: white;
+}
+.mouth{
+    width: 102px;
+    height: 46px;
+    background-color: red;
+    border-radius: 0px 0px 120px 120px;
+    position: absolute;
+    top: 114px;
+    left: 44px;
+    border: 1px solid black;
+
+    
+}.eyes{
+    width: 41px;
+    height: 61px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: absolute;
+    top: -31px;
+    left: 98px;
+    background-color: white;
+}
+.right-eye{
+    left: 56px;
+    position: absolute;
+}
+.black-dot{
+    width: 17px;
+    height: 32px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 6px;
+    left: 6px;
+}
+.white-dot{
+    width: 6px;
+    height: 16px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 5px;
+    left: 6px;
+}
+.nose{
+    width: 29px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    border: 1px solid black;
+    position: absolute;
+    left: 83px;
+    top: 23px;
+}
+.nose-dot{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 2px;
+}
+.black-line{
+    width: 2px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    top: 54px;
+    left: 96px;
+}
+.pet{
+    width: 205px;
+    height: 192px;
+    background-color: aqua;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 36px 36px 0px 0px;
+    position: relative;
+    /* text-align: center;
+    color: aqua;
+    line-height: 10px; */
+}
+.circle{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    position: absolute;
+    left: 22px;
+    top: 2px;
+    text-align: center;
+    color: aqua;
+    line-height: -2px;
+
+
+}
+.chand{
+    width:86px;
+    height: 43px;
+    border-radius: 0px 0px 45px 45px;
+    border: 1.5px solid black;
+    position: absolute;
+    left: 38px;
+    top: 97px;
+}
+.tie{
+    width: 151px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    border-radius: 20px;
+    top: -6px;
+    left: 28px;
+
+
+}
+.yellow{
+    width: 12px;
+    height: 12px;
+    background-color: yellow;
+    position: absolute;
+    border-radius: 50%;
+    top: 0px;
+    left: 69px;
+    border: 1px solid black;
+}
+.hath{
+    width: 22px;
+    height: 97px;
+    border: 1px solid black;
+    border-radius: 25px;
+    position: absolute;
+    top: 21px;
+    left: -13px;
+    background-color: aqua;
+
+}
+.gol{
+    width: 21px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    top: 76px;
+    left: 0px;
+    border: 1px solid black;
+
+
+}
+.hath2{
+    width: 80px;
+    height: 22px;
+    border: 1px solid black;
+    border-radius: 25px;
+    position: absolute;
+    top: 18px;
+    left: 200px;
+    background-color: aqua;
+    
+    
+}
+.gol2{
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    top: 0px;
+    left: 58px;
+    border: 1px solid black;
+
+}
+.per1{
+    width: 106px;
+    height: 22px;
+    border: 1px solid black;
+    border-radius: 25px;
+    position: absolute;
+    top: 178px;
+    left: 103px;
+    background-color:white;
+
+}
+.per2{
+    width: 106px;
+    height: 22px;
+    border: 1px solid black;
+    border-radius: 25px;
+    position: absolute;
+    top: 178px;
+    left: -4px;
+    background-color:white;
+
+  
+
+}
+.grid{
+    width: 2px;
+    height: 24px;
+    background-color: black;
+    position: absolute;
+    top: 163px;
+    left: 102.3px;
+
+}
+.much1{
+    width: 1px;
+    height: 43px;
+    background-color: black;
+    transform: rotate(60deg);
+    position: absolute;
+    top: 38px;
+    left: 116px;
+}
+.much2{
+    width: 1px;
+    height: 43px;
+    background-color: black;
+    transform: rotate(112deg);
+    position: absolute;
+    top: 41px;
+    right: 107px;
+
+}
+.much3{
+    width: 80px;
+    height: 1.3px;
+    background-color: black;
+    position: absolute;
+    top: 71px;
+    left: 57px;
+
+}
+.much4{
+    width: 1px;
+    height: 43px;
+    background-color: black;
+    transform: rotate(120deg);
+    position: absolute;
+    top: 61px;
+    left: 116px;
+
+}
+.much5{
+    width: 1px;
+    height: 43px;
+    background-color: black;
+    transform: rotate(65deg);
+    position: absolute;
+    top: 60px;
+    right: 107px;
+
+}
+
+    
+    
+    
+    
+    
+
